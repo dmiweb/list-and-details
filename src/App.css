@@ -1,0 +1,72 @@
+.users-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.users-list {
+  max-width: 250px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #bdbdbd;
+  list-style: none;
+}
+
+.user-item {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bdbdbd;
+  cursor: pointer;
+}
+
+.user-item:last-child {
+  border-bottom: none;
+}
+
+.user-item-active {
+  background-color: #2293fd;
+  color: #ffffff;
+}
+
+.user-details-list {
+  width: 300px;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #bdbdbd;
+  border-bottom: none;
+  list-style: none;
+}
+
+.info-avatar {
+  width: 100%;
+  height: 300px;
+  border-bottom: 1px solid #bdbdbd;
+  background-color: #d4d4d4;
+}
+
+.info-avatar-img {
+width: 100%;
+height: 300px;
+}
+
+.info-name {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 1.3rem;
+}
+
+.info-city {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.info-company {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.info-position {
+  padding: 10px 15px;
+  border-bottom: 1px solid #bdbdbd;
+}
